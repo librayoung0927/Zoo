@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Zoo</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="vegetable_intro">植物簡介</string>
+    <string name="location">位置</string>
+    <string name="asKnown">別名</string>
+    <string name="brief">簡介</string>
+    <string name="feature">特徵</string>
+    <string name="function">功用</string>
+    <string name="update">更新日期</string>
+</resources>

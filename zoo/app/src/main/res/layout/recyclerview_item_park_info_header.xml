@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ImageView
+        android:id="@+id/ivParkInfoHeader"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:scaleType="centerCrop"
+        tools:ignore="ContentDescription"/>
+
+    <TextView
+        android:id="@+id/tvParkIntro"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_below="@+id/ivParkInfoHeader"
+        android:padding="5dp"
+        tools:text="ffsafjs;lafjsaldfjsalf"/>
+
+    <TextView
+        android:id="@+id/tvParkCloseTime"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_below="@+id/tvParkIntro"
+        android:gravity="start"
+        android:padding="5dp"
+        tools:text="ffsafjs;lafjsaldfjsalf"/>
+
+    <FrameLayout
+        android:id="@+id/empty"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_below="@+id/tvParkCloseTime"
+        android:background="@color/color_D4D4D4"/>
+
+
+    <TextView
+        android:id="@+id/tvVegetable"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/empty"
+        android:gravity="start|center_vertical"
+        android:padding="10dp"
+        android:text="@string/vegetable_intro"/>
+</RelativeLayout>

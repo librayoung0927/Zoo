@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="120dp">
+
+    <ImageView
+        android:id="@+id/ivParkInfo"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="10dp"
+        tools:ignore="ContentDescription"/>
+
+    <LinearLayout
+        android:id="@+id/llInfo"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignTop="@+id/ivParkInfo"
+        android:layout_alignBottom="@+id/ivParkInfo"
+        android:layout_marginStart="10dp"
+        android:layout_toStartOf="@+id/ivEnter"
+        android:layout_toEndOf="@+id/ivParkInfo"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvPark"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:gravity="center_vertical"
+            android:textSize="18sp"
+            tools:text="無尾熊館園"/>
+
+        <TextView
+            android:id="@+id/tvParkDetail"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center_vertical"
+            android:maxLines="2"
+            android:textSize="14sp"
+            tools:text="無尾熊館園無尾熊館園無尾熊館園無尾熊館園無尾熊館園無尾熊館園無尾熊館園無尾熊館園無尾熊館園"/>
+
+        <TextView
+            android:id="@+id/tvParkCloseTime"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:gravity="top"
+            android:textSize="14sp"
+            tools:text="每月週一"/>
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/ivEnter"
+        android:layout_width="30dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentEnd="true"
+        android:scaleType="center"
+        android:src="@mipmap/ic_forward_gray_18"
+        tools:ignore="ContentDescription"/>
+
+</RelativeLayout>
